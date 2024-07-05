@@ -1,0 +1,235 @@
+@import url(./about.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+/* .bgimage { */
+body {
+    margin: 0 auto;
+    width : 100%;
+    height: 800px;
+    background-image: url(./border.jpeg);
+    background-image: url(https://b.kisscc0.com/20190326/eew/kisscc0-paper-black-white-m-angle-point-line-border-112-a4-size-5c9a3317d649e1.7670645915536094958777.png) center no-repeat cover ; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    
+    /* height: auto; */
+    /* border: 1px solid #000; */
+
+}
+
+.cont {
+
+    width: 600px;
+    height: 600px;
+    background-color: rgb(194, 192, 255);
+    border: 2px solid black;
+    position: relative;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(127, 255, 212);
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* z-index: 0; */
+}
+
+.shadow {
+    width: 300px;
+    height: 300px;
+    background-color: beige;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
+
+}
+
+.user {
+    width: 1000px;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+    top: 5%;
+    border: 2px solid #000;
+    /* background-color: beige; */
+
+}
+
+.user2 {
+    width: 1000px;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+    top: 5%;
+    border: 2px solid #000;
+    /* background-color: beige; */
+
+}
+
+.user1,
+.user2,
+.user3,
+.user4,
+.user5,
+.user6,
+.user7,
+.user8,
+.user9,
+.user10,
+.user11,
+.user12,
+.user13,
+.user14,
+.user15,
+.user16,
+.user17,
+.user18,
+.user19 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    border: 2px solid white;
+    /* background-color: rgba(245, 245, 220, 0); */
+
+}
+
+.user1 {
+    background-color: #000;
+    left: 10%;
+}
+
+.user2 {
+    background-color: #4C3BCF;
+    left: 15%;
+}
+
+.user3 {
+    background-color: #9de26b;
+    left: 20%;
+}
+
+.user4 {
+    background-color: #7D00A3;
+    left: 25%;
+}
+
+.user5 {
+    background-color: #dd6ac0;
+    left: 30%;
+}
+
+.user6 {
+    background-color: #6c6c6e;
+    left: 35%;
+}
+
+.user7 {
+    background-color: #e74872;
+    left: 40%;
+}
+
+.user8 {
+    background-color: #ed8a19;
+    left: 45%;
+}
+
+.user9 {
+    background-color: #f1d60a;
+    left: 50%;
+}
+
+/* ------------------------------------- */
+.user10 {
+    background-color: #000;
+    left: 10%;
+}
+
+.user11 {
+    background-color: #a8a1f4;
+    left: 10%;
+}
+
+.user12 {
+    background-color: #f39b9b;
+    left: 15%;
+}
+
+.user13 {
+    background-color: #7ef3d1;
+    left: 20%;
+}
+
+.user14 {
+    background-color: #8294ad;
+    left: 25%;
+}
+
+.user15 {
+    background-color: #f7df90;
+    left: 30%;
+}
+
+.user16 {
+    background-color: #b7da99;
+    left: 35%;
+}
+
+.user17 {
+    background-color: #e748c5;
+    left: 40%;
+}
+
+.user18 {
+    background-color: #ed8a19;
+    left: 45%;
+}
+
+.user19 {
+    background-color: #dac108;
+    left: 50%;
+}
+
+/* ------------------------------------- */
+
+.float1 {
+    font-size: large;
+    font-weight: bold;
+    font-style: oblique;
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.layout {
+    margin: 0 auto;
+    width: 1200px;
+    height: 600px;
+    background-color: #6493d1;
+    min-height: 100vh;
+
+}

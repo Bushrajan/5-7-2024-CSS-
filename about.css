@@ -1,0 +1,22 @@
+
+.first {
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    border: 2px solid #000;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:antiquewhite;
+}
+
+.second {
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    border: 2px solid #000;
+    background-color:antiquewhite;
+    padding: 20px;
+    margin: 20px auto;
+}
